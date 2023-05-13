@@ -80,5 +80,8 @@ public class Main {
                 System.out.println("Неверный пароль");
             }
         }
+        connectionToDataBase.close();
+        scanner.close();
     }
+
 }
